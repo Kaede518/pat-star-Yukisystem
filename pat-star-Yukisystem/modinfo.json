@@ -1,0 +1,28 @@
+{
+  "context": "client",
+  "identifier": "com.Yuki.system",
+  "display_name": "Yuki System",
+  "description": "Yuki/system",
+  "author": "Yuki",
+  "version": "v1.0.0",
+  "build": "0",
+  "date": "2024-04-02",
+  "signature": "not yet implemented",
+  "forum": "",
+  "icon": "https://i.imgur.com/L5z2uHw.png",
+  "priority": 100,
+  "dependencies": [
+    "com.pa.conundrum.cShareSystems"
+  ],
+  "authors": [
+    "Yuki"
+  ],
+  "scenes": {
+    "load_planet": [
+      "coui://ui/mods/Yuki/maps.js"
+    ]
+    
+  },
+  "titansOnly": true,
+  "titans": true
+}
